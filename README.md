@@ -35,12 +35,18 @@ There's a bunch more to it, but that's the core of the system. And because the s
 
 ### Claude Code Official Marketplace
 
-Superfast is available via the [official Claude plugin marketplace](https://claude.com/plugins/superfast)
+Superfast is available via our official GitHub Plugin Registry.
 
-Install the plugin from Claude marketplace:
+In Claude Code, register the marketplace first:
 
 ```bash
-/plugin install superfast@claude-plugins-official
+/plugin marketplace add https://raw.githubusercontent.com/FastBuilderAI/superfast/main/.claude-plugin/marketplace.json
+```
+
+Then install the plugin directly:
+
+```bash
+/plugin install superfast
 ```
 
 ### Claude Code (via Plugin Marketplace)
