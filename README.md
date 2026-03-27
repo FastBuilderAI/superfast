@@ -1,6 +1,16 @@
-# Superpowers
+# Superfast
 
-Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
+## Why Superfast?
+
+**The Token is Dying. AI Memory is Being Born.**
+
+We are witnessing a 97% collapse in AI token prices. Inference is becoming a commodity, as ubiquitous as electricity. But as the cost of tokens falls, the complexity of agentic workflows is exploding—a phenomenon known as the *Jevons Paradox*.
+
+The challenge has shifted from "how to pay less per token" to managing the **"token waste"** associated with agents that consume massive amounts of data without a persistent memory. If an agent can consume millions of tokens but forgets the architectural state between tasks, it isn't gaining wisdom—it's just generating noise at a higher velocity.
+
+**Superfast** was built to solve this. By combining rigorous, systematic workflows (TDD, Socratic brainstorming, bite-sized planning) with **FastMemory** (a structured CBFDAE cognitive logic layer), we turn transient compute into a high-value institutional asset.
+
+*Don't just pay for compute; build for recall.*
 
 ## How it works
 
@@ -12,12 +22,12 @@ After you've signed off on the design, your agent puts together an implementatio
 
 Next up, once you say "go", it launches a *subagent-driven-development* process, having agents work through each engineering task, inspecting and reviewing their work, and continuing forward. It's not uncommon for Claude to be able to work autonomously for a couple hours at a time without deviating from the plan you put together.
 
-There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superpowers.
+There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superfast.
 
 
 ## Sponsorship
 
-If Superpowers has helped you do stuff that makes money and you are so inclined, I'd greatly appreciate it if you'd consider [sponsoring my opensource work](https://github.com/sponsors/obra).
+If Superfast has helped you do stuff that makes money and you are so inclined, I'd greatly appreciate it if you'd consider [sponsoring my opensource work](https://github.com/sponsors/obra).
 
 Thanks! 
 
@@ -30,12 +40,12 @@ Thanks!
 
 ### Claude Code Official Marketplace
 
-Superpowers is available via the [official Claude plugin marketplace](https://claude.com/plugins/superpowers)
+Superfast is available via the [official Claude plugin marketplace](https://claude.com/plugins/superfast)
 
 Install the plugin from Claude marketplace:
 
 ```bash
-/plugin install superpowers@claude-plugins-official
+/plugin install superfast@claude-plugins-official
 ```
 
 ### Claude Code (via Plugin Marketplace)
@@ -43,13 +53,13 @@ Install the plugin from Claude marketplace:
 In Claude Code, register the marketplace first:
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+/plugin marketplace add obra/superfast-marketplace
 ```
 
 Then install the plugin from this marketplace:
 
 ```bash
-/plugin install superpowers@superpowers-marketplace
+/plugin install superfast@superfast-marketplace
 ```
 
 ### Cursor (via Plugin Marketplace)
@@ -57,17 +67,17 @@ Then install the plugin from this marketplace:
 In Cursor Agent chat, install from marketplace:
 
 ```text
-/add-plugin superpowers
+/add-plugin superfast
 ```
 
-or search for "superpowers" in the plugin marketplace.
+or search for "superfast" in the plugin marketplace.
 
 ### Codex
 
 Tell Codex:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/obra/superfast/refs/heads/main/.codex/INSTALL.md
 ```
 
 **Detailed docs:** [docs/README.codex.md](docs/README.codex.md)
@@ -77,7 +87,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 Tell OpenCode:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.opencode/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/obra/superfast/refs/heads/main/.opencode/INSTALL.md
 ```
 
 **Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
@@ -85,18 +95,18 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/obra/superpowers
+gemini extensions install https://github.com/obra/superfast
 ```
 
 To update:
 
 ```bash
-gemini extensions update superpowers
+gemini extensions update superfast
 ```
 
 ### Verify Installation
 
-Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
+Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superfast skill.
 
 ## The Basic Workflow
 
@@ -140,7 +150,8 @@ Start a new session in your chosen platform and ask for something that should tr
 
 **Meta**
 - **writing-skills** - Create new skills following best practices (includes testing methodology)
-- **using-superpowers** - Introduction to the skills system
+- **using-superfast** - Introduction to the skills system
+- **fastmemory** - Structured cognitive memory using CBFDAE ontology
 
 ## Philosophy
 
@@ -149,7 +160,7 @@ Start a new session in your chosen platform and ask for something that should tr
 - **Complexity reduction** - Simplicity as primary goal
 - **Evidence over claims** - Verify before declaring success
 
-Read more: [Superpowers for Claude Code](https://blog.fsck.com/2025/10/09/superpowers/)
+Read more: [Superfast for Claude Code](https://blog.fsck.com/2025/10/09/superfast/)
 
 ## Contributing
 
@@ -167,8 +178,12 @@ See `skills/writing-skills/SKILL.md` for the complete guide.
 Skills update automatically when you update the plugin:
 
 ```bash
-/plugin update superpowers
+/plugin update superfast
 ```
+
+## Credits
+
+**Superfast** is a heavily enhanced fork of the original [Superpowers](https://github.com/obra/superpowers) project. We are deeply grateful to [Jesse Vincent](https://blog.fsck.com) and the team at [Prime Radiant](https://primeradiant.com) for their foundational work in establishing systematic workflows for AI agents. 
 
 ## License
 
@@ -176,12 +191,12 @@ MIT License - see LICENSE file for details
 
 ## Community
 
-Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of the folks at [Prime Radiant](https://primeradiant.com).
+Superfast is built by [Jesse Vincent](https://blog.fsck.com) and the rest of the folks at [Prime Radiant](https://primeradiant.com).
 
-For community support, questions, and sharing what you're building with Superpowers, join us on [Discord](https://discord.gg/Jd8Vphy9jq).
+For community support, questions, and sharing what you're building with Superfast, join us on [Discord](https://discord.gg/Jd8Vphy9jq).
 
 ## Support
 
 - **Discord**: [Join us on Discord](https://discord.gg/Jd8Vphy9jq)
-- **Issues**: https://github.com/obra/superpowers/issues
-- **Marketplace**: https://github.com/obra/superpowers-marketplace
+- **Issues**: https://github.com/obra/superfast/issues
+- **Marketplace**: https://github.com/obra/superfast-marketplace
