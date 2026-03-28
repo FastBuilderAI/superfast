@@ -57,19 +57,6 @@ Then install the plugin directly:
 /plugin install superfast
 ```
 
-### Claude Code (via Plugin Marketplace)
-
-In Claude Code, register the marketplace first:
-
-```bash
-/plugin marketplace add obra/superfast-marketplace
-```
-
-Then install the plugin from this marketplace:
-
-```bash
-/plugin install superfast@superfast-marketplace
-```
 
 ### Cursor (via Plugin Marketplace)
 
