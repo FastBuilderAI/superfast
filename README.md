@@ -91,7 +91,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superf
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/obra/superfast
+gemini extensions install https://github.com/FastBuilderAI/superfast
 ```
 
 To update:
@@ -190,5 +190,5 @@ For community support, questions, and sharing what you're building with Superfas
 ## Support
 
 - **Discord**: [Join us on Discord](https://discord.gg/Jd8Vphy9jq)
-- **Issues**: https://github.com/obra/superfast/issues
-- **Marketplace**: https://github.com/obra/superfast-marketplace
+- **Issues**: https://github.com/FastBuilderAI/superfast/issues
+- **Marketplace**: https://github.com/FastBuilderAI/superfast

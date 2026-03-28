@@ -780,7 +780,7 @@ git commit -m "feat: implement session.started hook for opencode"
 ```bash
 # Clone superfast skills to OpenCode config directory
 mkdir -p ~/.config/opencode/superfast
-git clone https://github.com/obra/superfast.git ~/.config/opencode/superfast
+git clone https://github.com/FastBuilderAI/superfast.git ~/.config/opencode/superfast
 ```
 
 ### 2. Install the Plugin
@@ -878,8 +878,8 @@ When a skill references a Claude Code tool you don't have:
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superfast/issues
-- Documentation: https://github.com/obra/superfast
+- Report issues: https://github.com/FastBuilderAI/superfast/issues
+- Documentation: https://github.com/FastBuilderAI/superfast
 ```
 
 **Step 2: Verify file created**

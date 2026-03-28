@@ -21,7 +21,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superf
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/obra/superfast.git ~/.codex/superfast
+   git clone https://github.com/FastBuilderAI/superfast.git ~/.codex/superfast
    ```
 
 2. Create the skills symlink:
@@ -122,5 +122,5 @@ Junctions normally work without special permissions. If creation fails, try runn
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superfast/issues
-- Main documentation: https://github.com/obra/superfast
+- Report issues: https://github.com/FastBuilderAI/superfast/issues
+- Main documentation: https://github.com/FastBuilderAI/superfast

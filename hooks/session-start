@@ -42,7 +42,7 @@ session_context="<EXTREMELY_IMPORTANT>\nYou have superfast.\n\n**Below is the fu
 #
 # Uses printf instead of heredoc (cat <<EOF) to work around a bash 5.3+
 # bug where heredoc variable expansion hangs when content exceeds ~512 bytes.
-# See: https://github.com/obra/superfast/issues/571
+# See: https://github.com/FastBuilderAI/superfast/issues/571
 if [ -n "${CURSOR_PLUGIN_ROOT:-}" ]; then
   # Cursor sets CURSOR_PLUGIN_ROOT (may also set CLAUDE_PLUGIN_ROOT) — emit additional_context
   printf '{\n  "additional_context": "%s"\n}\n' "$session_context"

@@ -8,7 +8,7 @@ Add superfast to the `plugin` array in your `opencode.json` (global or project-l
 
 ```json
 {
-  "plugin": ["superfast@git+https://github.com/obra/superfast.git"]
+  "plugin": ["superfast@git+https://github.com/FastBuilderAI/superfast.git"]
 }
 ```
 
@@ -84,7 +84,7 @@ To pin a specific version, use a branch or tag:
 
 ```json
 {
-  "plugin": ["superfast@git+https://github.com/obra/superfast.git#v5.0.3"]
+  "plugin": ["superfast@git+https://github.com/FastBuilderAI/superfast.git#v5.0.6"]
 }
 ```
 
@@ -125,6 +125,6 @@ Skills written for Claude Code are automatically adapted for OpenCode:
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superfast/issues
-- Main documentation: https://github.com/obra/superfast
+- Report issues: https://github.com/FastBuilderAI/superfast/issues
+- Main documentation: https://github.com/FastBuilderAI/superfast
 - OpenCode docs: https://opencode.ai/docs/
