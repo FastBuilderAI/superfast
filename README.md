@@ -20,6 +20,9 @@ Superpowers is an incredible framework, but it operates on a critical assumption
 
 The remaining **20% of high-value, enterprise codebases** are simply too massive and complex to rely on inherent AI memory. Standard agents lose context, hallucinate logic, and break down under scale. That's where **FastMemory** comes into play. It provides Superpowers with the required *nitro boost*—mapping large-scale code and content memory into our deterministic **CBFDAE** ontology, giving your agent perfect institutional wisdom in milliseconds.
 
+> [!TIP]
+> **Verified SOTA Engine**: Built directly on the native FastMemory engine, Superfast harnesses the identical graph architecture that recently achieved **[State-of-the-Art (SOTA) on 13 core benchmarks over on Hugging Face](https://huggingface.co/fastbuilderai/FastMemory)** (including FinanceBench, FRAMES, and GraphRAG-Bench). You are utilizing the most accurate multi-hop reasoning model natively inside your codebase.
+
 ## How it works
 
 It starts by establishing your Context Memory. Before any brainstorming or planning occurs, it instantly triggers the **FastMemory Build-Up Skill**, recursively mapping your enterprise repository into a deterministic CBFDAE graph. 
