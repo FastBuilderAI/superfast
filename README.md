@@ -14,6 +14,12 @@ The next frontier of AI isn't just about faster models; it's about **Enterprise 
 
 *Don't just build features; build a memory moat.*
 
+### Why FastMemory vs Standard Superpowers?
+
+Superpowers is an incredible framework, but it operates on a critical assumption: that your codebase fits neatly into native AI context windows. That is only true for **80% of low-value, boilerplate codebases**. 
+
+The remaining **20% of high-value, enterprise codebases** are simply too massive and complex to rely on inherent AI memory. Standard agents lose context, hallucinate logic, and break down under scale. That's where **FastMemory** comes into play. It provides Superpowers with the required *nitro boost*—mapping large-scale code and content memory into our deterministic **CBFDAE** ontology, giving your agent perfect institutional wisdom in milliseconds.
+
 ## How it works
 
 It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. 
