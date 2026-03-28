@@ -8,7 +8,7 @@
 
 ### FastMemory Integration
 - **Structured Cognitive Memory** — Integrated the `fastmemory` skill, utilizing the **CBFDAE** (Component, Block, Function, Data, Access, Event) ontology to build persistent logic layers for AI agents.
-- **FastMemory Skill** — New skill in `skills/fastmemory/` for automated logic extraction from design documents using the `fastmemory v0.2.1` Python core.
+- **FastMemory Skill** — New skill in `skills/fastmemory/` for automated logic extraction from design documents using the `fastmemory v0.2.2` Python core.
 - **Deterministic Recall** — Replaced stochastic RAG-based context with surgical graph-based navigation, reducing hallucinations in large-scale enterprise environments.
 - **Ecosystem Synchronization** — Established official cross-project referencing with the `fastmemory` core engine and `memory-template` deployment repositories.
 

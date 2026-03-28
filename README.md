@@ -146,7 +146,7 @@ Start a new session in your chosen platform and ask for something that should tr
 **Meta**
 - **writing-skills** - Create new skills following best practices (includes testing methodology)
 - **using-superfast** - Introduction to the skills system
-- **fastmemory** - Structured cognitive memory using CBFDAE ontology (Supported: v0.2.1+)
+- **fastmemory** - Structured cognitive memory using CBFDAE ontology (Supported: v0.2.2+)
 
 ## Philosophy
 
