@@ -178,7 +178,7 @@ Skills update automatically when you update the plugin:
 
 ## Credits
 
-**Superfast** is a heavily enhanced fork of the original [Superpowers](https://github.com/obra/superpowers) project. We are deeply grateful to [Jesse Vincent](https://blog.fsck.com) and the team at [Prime Radiant](https://primeradiant.com) for their foundational work in establishing systematic workflows for AI agents. 
+**Superfast** is a heavily enhanced fork of the original [Superpowers](https://github.com/obra/superpowers) project. We are deeply grateful to the original team for their foundational work in establishing systematic workflows for AI agents. 
 
 ## License
 
@@ -186,7 +186,7 @@ MIT License - see LICENSE file for details
 
 ## Community
 
-Superfast is built by [Jesse Vincent](https://blog.fsck.com) and the rest of the folks at [Prime Radiant](https://primeradiant.com).
+Superfast is built and maintained by [FastBuilder.AI](https://fastbuilder.ai).
 
 For community support, questions, and sharing what you're building with Superfast, join us on [Discord](https://discord.gg/Jd8Vphy9jq).
 
