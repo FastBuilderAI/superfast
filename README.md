@@ -22,7 +22,7 @@ The remaining **20% of high-value, enterprise codebases** are simply too massive
 
 ## How it works
 
-It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Before any brainstorming or planning occurs, it instantly triggers the **FastMemory Build-Up Skill**, recursively mapping your enterprise repository into a deterministic CBFDAE graph. 
+It starts by establishing your Context Memory. Before any brainstorming or planning occurs, it instantly triggers the **FastMemory Build-Up Skill**, recursively mapping your enterprise repository into a deterministic CBFDAE graph. 
 
 Once your agent's cognitive map is established, it steps back and asks you what you're really trying to do.  
 
