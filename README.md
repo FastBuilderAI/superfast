@@ -1,5 +1,7 @@
 # Superfast
 
+![FastBuilder Benchmarks](banner.png)
+
 ## Why Superfast?
 
 **From Individual Speed to Enterprise Institutional Wisdom.**
